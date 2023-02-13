@@ -1,4 +1,5 @@
 <template>
+  <Navbar />
   <nav>
     <router-link to="/">Home</router-link>
     |
@@ -6,6 +7,17 @@
   </nav>
   <router-view/>
 </template>
+
+<script lang="ts">
+import Navbar from './components/layouts/Navbar.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Navbar,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {
