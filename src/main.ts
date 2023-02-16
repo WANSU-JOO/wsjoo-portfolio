@@ -9,5 +9,9 @@ import './registerServiceWorker';
 import router from './router';
 import store from './store';
 
+import '@/assets/scss/_index.scss';
+
+require('@/assets/scss/_index.scss');
+
 createApp(App).use(store).use(router).use(BootstrapVue3)
   .mount('#app');

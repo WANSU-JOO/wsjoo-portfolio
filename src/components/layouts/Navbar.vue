@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar class="fixed-top" toggleable="lg" style="background-color: black">
+    <b-navbar class="fixed-top" toggleable="lg" style="background-color: green">
       <b-navbar-brand to="/">
         <img
           :src="require('@/assets/images/wsjoo-low-resolution-logo.png')"
@@ -13,7 +13,12 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item to="/about" style="outline-color: azure"><a>Link</a></b-nav-item>
+          <b-nav-item to="/about" style="outline-color: azure">
+            <a>test</a>
+          </b-nav-item>
+          <b-nav-item to="/about" style="outline-color: azure">
+            test
+          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -27,8 +32,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/scss/fonts.scss";
+
 nav .navbar-nav li a{
-  color: white !important;
+  //color: white !important;
   font-size: 30px;
 }
 </style>

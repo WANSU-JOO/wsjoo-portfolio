@@ -1,5 +1,7 @@
 <template>
   <div ref="main" class="main-page-wrap">
+  <br>
+    <a>testtest테스트</a>
     <b-card>
         <b-img
           :src="require('@/assets/images/wsjoo-logo.png')"
