@@ -1,16 +1,18 @@
 <template>
-  <div ref="main" class="main-page-wrap">
-  <br>
-    <a>testtest테스트</a>
-    <b-card>
-        <b-img
-          :src="require('@/assets/images/wsjoo-logo.png')"
-        />
-      <b-card-body>
-        <b-button>test</b-button>
-      </b-card-body>
-    </b-card>
+  <div ref="main" class="main" id="app">
+    <img
+      class="main"
+      :src="require('@/assets/images/Me.jpg')"
+      alt=""
+    />
   </div>
 </template>
 <script setup lang="ts">
+
 </script>
+<style lang="scss">
+img {
+  padding: 0;
+  margin: 0;
+}
+</style>
