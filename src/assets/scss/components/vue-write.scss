@@ -1,0 +1,40 @@
+// 타이핑
+.is-typed {
+  font-family: KOTRA_BOLD, sans-serif;
+  color: white !important;
+  font-size: 30px;
+}
+
+.is-typed span.typed {
+  color: white;
+}
+
+/* 커서 색상,두께 */
+.is-typed span.cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: white;
+  animation: blink 1s infinite;
+}
+.is-typed span.underscore {
+  display: inline-flex;
+  width: 10px;
+  height: 1px;
+  align-items: flex-end;
+  background-color: white;
+  animation: blink 1s infinite;
+}
+.is-typed span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  49% {
+    background-color: white;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+}
