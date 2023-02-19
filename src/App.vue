@@ -1,11 +1,14 @@
 <template>
-  <Navbar />
-  <nav>
-    <router-link to="/">Home</router-link>
-    |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <b-row>
+      <Navbar />
+    </b-row>
+    <b-row>
+      <body class="main-contents">
+        <router-view/>
+      </body>
+    </b-row>
+  </div>
 </template>
 
 <script lang="ts">
@@ -28,7 +31,7 @@ export default {
   color: #2c3e50;
 }
 nav {
-  padding: 14px;
+  padding: 0px;
 
   a {
     font-weight: bold;

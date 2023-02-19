@@ -4,12 +4,12 @@
       <b-navbar-brand to="/">
         <img
           :src="require('@/assets/images/wsjoo-low-resolution-logo.png')"
-          alt="Kitten"
+          alt="logo"
           width="150"
         >
       </b-navbar-brand>
 
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-navbar-toggle target="nav-collapse" class="color"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
@@ -21,13 +21,14 @@
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
+
     </b-navbar>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'navbar-header',
+  name: 'App',
 };
 </script>
 

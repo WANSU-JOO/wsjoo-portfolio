@@ -8,11 +8,17 @@
   background-color: black;
   width : 100vw;
 }
-
+.main-contents {
+  padding-top: 92px;
+}
 nav a {
   font-family: KOTRA_BOLD, sans-serif;
   color: white !important;
   font-size: 30px;
+}
+b-navbar-toggle .color {
+  background-color: white;
+  color: white;
 }
 
 .cover {
