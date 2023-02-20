@@ -18,5 +18,7 @@ module.exports = {
       ignores: ['Index', 'About'],
     }],
     'max-len': ['error', { code: 150, ignoreRegExpLiterals: true }],
+    'linebreak-style': 0,
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
 };
