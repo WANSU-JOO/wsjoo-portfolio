@@ -8,9 +8,11 @@
         :typeSpeed="100"
       />
     </header>
+    <main-image></main-image>
   </div>
 </template>
 <script setup lang="ts">
+import MainImage from '@/components/MainImage.vue';
 
 const hello: string[] = ['안녕하세요. 주완수의 포트폴리오 사이트입니다.\nVueJs / JavaScript / TypeScript / SpringBoot'];
 </script>
