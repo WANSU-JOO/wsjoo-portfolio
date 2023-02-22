@@ -8,7 +8,8 @@
         :typeSpeed="100"
       />
     </header>
-    <main-image></main-image>
+    <main-image />
+
   </div>
 </template>
 <script setup lang="ts">
@@ -18,9 +19,5 @@ const hello: string[] = ['안녕하세요. 주완수의 포트폴리오 사이�
 </script>
 
 <style lang="scss">
-img {
-  padding: 0;
-  margin: 0;
-}
 
 </style>

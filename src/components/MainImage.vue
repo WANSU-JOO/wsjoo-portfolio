@@ -7,6 +7,6 @@
 @import "@/assets/scss/variables.scss";
 .main-image {
   width: $vWidth;
-  height: $vHeight;
+  height: $photoVHeight;
 }
 </style>

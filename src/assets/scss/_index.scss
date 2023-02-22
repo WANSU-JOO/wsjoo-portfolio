@@ -2,26 +2,39 @@
 @import "fonts.scss";
 @import "@/assets/scss/components/vue-write.scss";
 #app {
-  width : 100vw;
-  height : 100vh;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  width : $vWidth;
+  height : $vHeight;
+  overflow-x: hidden;
+
 }
 .main {
   background-color: black;
-  width : 100vw;
+  width : $vWidth;
+  //overflow-y: scroll;
 }
 .main-contents {
   padding-top: 92px;
 }
-nav a {
-  font-family: KOTRA_BOLD, sans-serif;
-  color: white !important;
-  font-size: 30px;
+nav {
+  a {
+    font-family: KOTRA_BOLD, sans-serif;
+    color: white !important;
+    font-size: 30px;
+  }
 }
 b-navbar-toggle .color {
   background-color: white;
   color: white;
 }
-
 .cover {
   object-fit: cover;
+}
+
+.nav {
+  width: $vWidth;
 }

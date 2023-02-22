@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar class="fixed-top" toggleable="lg" style="background-color: black">
+    <b-navbar class="nav fixed-top" toggleable="lg" style="background-color: black">
       <b-navbar-brand to="/">
         <img
           :src="require('@/assets/images/wsjoo-low-resolution-logo.png')"
