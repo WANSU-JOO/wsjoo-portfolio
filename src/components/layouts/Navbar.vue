@@ -11,7 +11,7 @@
 
       <b-navbar-toggle target="nav-collapse" class="color"></b-navbar-toggle>
 
-      <b-collapse id="nav-collapse" is-nav>
+      <b-collapse is-nav>
         <b-navbar-nav>
           <b-nav-item to="/about">
             <a>AboutMe</a>
@@ -21,7 +21,12 @@
           </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
-
+      <b-nav-item href="https://github.com/WANSU-JOO">
+        <a>GitHub</a>
+      </b-nav-item>
+      <b-nav-item href="https://www.instagram.com/greatjoo3_3">
+        <a>Instagram</a>
+      </b-nav-item>
     </b-navbar>
   </div>
 </template>
