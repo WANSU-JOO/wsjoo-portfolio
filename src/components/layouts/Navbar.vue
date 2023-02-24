@@ -22,18 +22,21 @@
         </b-navbar-nav>
       </b-collapse>
       <b-nav-item href="https://github.com/WANSU-JOO">
-        <a>GitHub</a>
+        <i class="bi bi-github"></i>
       </b-nav-item>
       <b-nav-item href="https://www.instagram.com/greatjoo3_3">
-        <a>Instagram</a>
+        <i class="bi bi-instagram"></i>
       </b-nav-item>
     </b-navbar>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'App',
+  components: {
+  },
 };
 </script>
 
