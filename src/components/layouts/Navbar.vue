@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar class="nav fixed-top" toggleable="lg" style="background-color: dimgray">
+    <b-navbar class="nav fixed-top" toggleable="lg" style="background-color: black">
       <b-navbar-brand to="/">
         <img
           :src="require('@/assets/images/wsjoo-low-resolution-logo.png')"
@@ -11,7 +11,7 @@
 
       <b-navbar-toggle target="nav-collapse" class="color"></b-navbar-toggle>
 
-      <b-collapse id="nav-collapse" is-nav>
+      <b-collapse id="nav-collapse" class="justify-content-between" is-nav>
         <b-navbar-nav>
           <b-nav-item to="/about">
             <a>AboutMe</a>
@@ -20,16 +20,17 @@
             <a>Project</a>
           </b-nav-item>
         </b-navbar-nav>
-      </b-collapse>
 
         <b-navbar-nav>
-      <b-nav-item href="https://github.com/WANSU-JOO">
-        <i class="bi bi-github"></i>
-      </b-nav-item>
-      <b-nav-item href="https://www.instagram.com/greatjoo3_3">
-        <i class="bi bi-instagram"></i>
-      </b-nav-item>
+          <b-nav-item href="https://github.com/WANSU-JOO" right>
+            <i class="bi bi-github"></i>
+          </b-nav-item>
+          <b-nav-item href="https://www.instagram.com/greatjoo3_3" right>
+            <i class="bi bi-instagram"></i>
+          </b-nav-item>
         </b-navbar-nav>
+      </b-collapse>
+
     </b-navbar>
   </div>
 </template>
