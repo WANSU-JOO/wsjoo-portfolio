@@ -14,10 +14,10 @@
       <b-collapse id="nav-collapse" class="justify-content-between" is-nav>
         <b-navbar-nav>
           <b-nav-item to="/about">
-            <a>AboutMe</a>
+            <a>ABOUT</a>
           </b-nav-item>
           <b-nav-item to="/about">
-            <a>Project</a>
+            <a>PROJECT</a>
           </b-nav-item>
         </b-navbar-nav>
 
