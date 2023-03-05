@@ -2,21 +2,27 @@
   <div>
     <span
       class="card-img"
-      v-for="(id, src) in data"
-      :key="id"
-      :src="src"
+      :key="data.id"
+      :src="data.src"
     >
 
     </span>
   </div>
 </template>
 <script lang="ts">
+import data from '@/assets/data';
+
 export default {
   name: 'ProjectCard',
   props: {
     data: {
-      type: Array,
-      required: true,
+      id: String,
+      src: String,
+    },
+  },
+  methods: {
+    getSource() {
+      console.log(data, 'data');
     },
   },
 };
