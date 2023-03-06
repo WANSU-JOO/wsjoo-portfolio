@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar class="nav fixed-top" toggleable="lg" style="background-color: black">
+    <b-navbar class="nav" toggleable="lg">
       <b-navbar-brand to="/">
         <img
           :src="require('@/assets/images/wsjoo-low-resolution-logo.png')"
@@ -45,5 +45,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 </style>

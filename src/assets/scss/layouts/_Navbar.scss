@@ -1,0 +1,20 @@
+@import "@/assets/scss/_variables.scss";
+nav {
+  width: $vWidth;
+  background-color: black;
+  object-fit: cover;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+
+  a {
+    font-family: KOTRA_BOLD, sans-serif;
+    color: white !important;
+    font-size: 40px;
+  }
+}
+
+
+
+

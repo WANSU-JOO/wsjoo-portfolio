@@ -1,6 +1,7 @@
 @import "variables";
 @import "fonts";
 @import "@/assets/scss/components/_vue-write.scss";
+@import "@/assets/scss/layouts/_Navbar.scss";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,27 +12,10 @@
   overflow-x: hidden;
 }
 .main {
-  background-color: black;
+  background-color: $bgColor;
   width : $vWidth;
   //overflow-y: inherit;
 }
 .main-contents {
   padding-top: 92px;
-}
-nav {
-  a {
-    font-family: KOTRA_BOLD, sans-serif;
-    color: white !important;
-    font-size: 40px;
-  }
-}
-.color {
-  background-color: white;
-}
-.cover {
-  object-fit: cover;
-}
-
-.nav {
-  width: $vWidth;
 }
