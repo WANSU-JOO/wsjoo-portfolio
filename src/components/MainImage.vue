@@ -4,7 +4,7 @@
   </div>
 </template>
 <style lang="scss">
-@import "@/assets/scss/variables.scss";
+@import "@/assets/scss/_variables.scss";
 .main-image {
   width: $photoVWidth;
   height: $photoVHeight;

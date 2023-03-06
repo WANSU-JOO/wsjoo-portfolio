@@ -1,6 +1,6 @@
-@import "variables.scss";
-@import "fonts.scss";
-@import "@/assets/scss/components/vue-write.scss";
+@import "variables";
+@import "fonts";
+@import "@/assets/scss/components/_vue-write.scss";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
