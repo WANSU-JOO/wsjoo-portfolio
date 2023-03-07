@@ -1,9 +1,12 @@
 <template>
   <div>
+    <div class="page-header">
+      {{ data.data.id }}
+    </div>
     <span
       class="card-img"
-      :key="data.id"
-      :src="data.src"
+      :key="data.data.id"
+      :src="data.data.src"
     >
 
     </span>
@@ -20,10 +23,18 @@ export default {
       src: String,
     },
   },
+  data() {
+    return {
+      dataSource: Object,
+    };
+  },
+  setup() {
+    console.log(data.data, 'data');
+  },
   methods: {
-    getSource() {
-      console.log(data, 'data');
-    },
   },
 };
 </script>
+<style lang="scss">
+@import "@/assets/scss/components/_project-card.scss";
+</style>
